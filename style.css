@@ -303,3 +303,100 @@ header .top-nav-actions button {
   background: #fff;
   justify-content: center;
 }
+
+footer {
+  background: #D3B288;
+  color: #fff;
+}
+
+footer .title {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+
+footer .title p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+footer .title p:nth-child(3) {
+  border-bottom: 2px dashed #fff;
+  padding-bottom: .2rem;
+}
+
+footer .title button {
+  background: #fff;
+  color: #D3B288;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+footer .nav {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .nav .nav-col {
+  flex: 0 0 15%; 
+}
+
+footer .nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer .nav li {
+  margin-top: .8rem;
+  font-size: .8rem;
+}
+
+footer .nav h3 {
+  font-size: .8rem;
+  margin: 0;
+  margin-bottom: 1.2rem;
+}
+
+footer .nav .work-regime {
+  flex: 0 0 30%;
+  border: 2px solid #fff;
+  padding: 3rem;
+}
+
+footer .nav .work-regime *{
+  margin: 0;
+  padding: 0;
+}
+
+footer .nav .work-regime h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+footer .nav .work-regime div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: .6rem;
+  font-size: .8rem;
+}
+
+footer .nav .work-regime > p {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #fff;
+  line-height: 1.2rem;
+  font-size: .8rem;
+}
+
+.sub-footer {
+  display: flex;
+  color: #333;
+  justify-content: space-between;
+}
