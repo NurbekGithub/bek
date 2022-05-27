@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+header .top-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 1.2rem;
+  font-weight: 300;
+}
+
+header .top-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+header .top-nav-actions .address {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+header .top-nav-actions .address p {
+  border-bottom: 2px dashed #D3B288;
+  padding-bottom: 2px;
+}
+
+header .top-nav-actions button {
+  background: #D3B288;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+#ad {
+  position: relative;
+  height: 700px;
+  background-image: url('./assets/ad-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ad .banner {
+  position: absolute;
+  left: 430px;
+  width: 526px;
+  background: #fff;
+  height: 100%;
+  padding: 1.2rem;
+}
+
+#ad .banner > div {
+  padding: 3rem;
+  height: 100%;
+  border: 2px solid #D3B288;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+#ad .banner h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-bottom: 0;
+}
+
+#ad .banner p {
+  line-height: 1.4rem;
+}
+
+#ad .banner button {
+  background: #D3B288;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#about {
+  display: flex;
+  padding: 6rem 4rem;
+  gap: 4rem;
+}
+
+#about > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem
+}
+
+#about h3 {
+  margin: 0;
+  color: #D3B288;
+  font-size: 2rem;
+}
+
+#about p {
+  color: #333;
+  margin: 0;
+  line-height: 1.2rem;
+}
+
+#consultation {
+  display: flex;
+  gap: 1.2rem;
+  padding-bottom: 6rem;
+}
+
+#consultation .title{
+  flex: 0 0 300px;
+  padding: 1rem;
+}
+
+#consultation .title h3 {
+  color: #D3B288;
+  font-size: 2rem;
+  margin: 0;
+  line-height: 2.6rem;
+}
+
+#consultation .title p {
+  margin-top: 2rem;
+  line-height: 1.2rem;
+  font-weight: 300;
+}
+
+#consultation .grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#consultation .grid-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+#consultation .grid-line div {
+  text-align: center;
+}
+
+#procedure {
+  padding: 4rem 0;
+  background: rgba(211, 178, 136, .1);
+}
+
+#procedure > div {
+  display: flex;
+  gap: 1rem;
+}
+
+#procedure .title {
+  flex: 0 0 400px;
+}
+
+#procedure .title h3 {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin: 0;
+}
+
+#procedure .title p {
+  font-size: 14px;
+  line-height: 1.4rem;
+  font-weight: 300;
+}
+
+#procedure .cards {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+#procedure .cards > div {
+  flex: 0 0 22%;
+  padding: 0.6rem;
+  background: #D3B288;
+}
+
+#procedure .cards > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: 2px solid #fff;
+  height: 100%;
+}
+
+#procedure .cards p {
+  margin-bottom: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+}
