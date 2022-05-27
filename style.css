@@ -224,3 +224,82 @@ header .top-nav-actions button {
   font-weight: 500;
   color: #fff;
 }
+
+#results {
+  padding: 4rem 0;
+}
+
+#results .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#results .title h3 {
+  color:#D3B288;
+  font-size: 1.4rem;
+  flex: 1;
+}
+
+#results .title .buttons {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+#results .title .buttons button{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border: none;
+  background: #D3B288;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+#results .showcase {
+  display: flex;
+  justify-content: space-between;
+}
+
+#results .showcase > div {
+  flex: 0 0 30%;
+}
+
+#results .showcase .showcase-img {
+  position: relative;
+  background-image: url('./assets/results.png');
+  height: 233px;
+  background-size: cover;
+}
+
+#results .showcase .divider {
+  height: 100%;
+  width: 4px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  user-select: none;
+}
+
+#results .showcase .divider .handler {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+  color: #333;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: #fff;
+  justify-content: center;
+}
